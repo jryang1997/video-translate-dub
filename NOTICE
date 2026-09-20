@@ -1,0 +1,52 @@
+Video Translate & Dub Pipeline (Agent Skill)
+Copyright 2026 The Video-Translate-Dub Contributors.
+
+This product includes software and font assets developed by open-source communities and individual contributors.
+
+========================================================================
+Third-Party Notices & Derivative Disclaimers
+========================================================================
+
+1. bilibili IndexTTS-2.5 (TTS & Voice Cloning Engine)
+   - Origin: https://github.com/index-tts/index-tts
+   - License: bilibili Model Use License Agreement
+   - Mandatory Disclaimer:
+     本项目使用的配音引擎基于 bilibili IndexTTS-2.5。
+     该衍生品对原模型所作的任何改动与原模型原始权利人无关，原始权利人对该衍生品不背书、不担保、不承担责任。
+     (Any modification made by this project to the original model is not affiliated with the original right-holder of bilibili IndexTTS-2.5. The original right-holder does not endorse, guarantee, or assume liability for this derivative work.)
+
+2. whisper.cpp (Audio Speech Recognition)
+   - Origin: https://github.com/ggerganov/whisper.cpp
+   - Copyright (c) 2023 Georgi Gerganov
+   - License: MIT License
+
+3. Demucs (Music Source Separation)
+   - Origin: https://github.com/facebookresearch/demucs
+   - Copyright (c) Meta Platforms, Inc. and affiliates.
+   - License: MIT License
+
+4. yt-dlp (Media Downloader)
+   - Origin: https://github.com/yt-dlp/yt-dlp
+   - License: The Unlicense
+
+5. Open-Source Fonts
+   - Smiley Sans (得意黑): 
+     Copyright (c) 2022--2024, atelierAnchor (厉向晨、刘育黎及贡献者).
+     Origin: https://github.com/atelier-anchor/smiley-sans
+     Licensed under SIL Open Font License 1.1 (fonts/OFL-SmileySans.txt).
+   - ZCOOL KuaiLe (站酷快乐体): 
+     Copyright (c) ZCOOL & 刘兵克团队.
+     Free for commercial and personal distribution.
+
+========================================================================
+Architecture & Engineering Inspiration
+========================================================================
+
+We would like to express our sincere gratitude and respect to the following open-source projects and creators:
+
+- atelierAnchor / Smiley Sans (https://github.com/atelier-anchor/smiley-sans):
+  For creating the magnificent open-source Chinese typeface "Smiley Sans" (得意黑) that powers our dual-language typography.
+- VideoLingo (https://github.com/Huanshere/VideoLingo):
+  For pioneering multi-step LLM translation reflection, terminology preservation, and segment contraction concepts.
+- KrillinAI (https://github.com/KrillinAI/KrillinAI):
+  For valuable insights into duration regression calibration and robust ASR content-addressable caching architectures.
